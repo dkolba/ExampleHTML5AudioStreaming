@@ -23,7 +23,7 @@ function pad2(number) {
 	return (number < 10 ? '0' : '') + number
 }
 
-var myaudioURL = 'http://stream.4zzzfm.org.au:789/';
+var myaudioURL = 'http://scast.regenbogen.de/bigFM_aac';
 var myaudio = new Audio(myaudioURL);
 var isPlaying = false;
 var readyStateInterval = null;
